@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5F9EA0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DE3163;
+}
+
+.active {
+  background-color: #DE3163;
+}
+
+
+<ul>
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="aboutme.html">About Me</a></li>
+                      <li><a href="education.html">Education</a></li>
+                      <li><a href="myfamily.html">My Family</a></li>
+                      <li><a href="gallery.html">Nnisa's Gallery</a></li>
+                      <li><a href="experience.html">Experiences</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+

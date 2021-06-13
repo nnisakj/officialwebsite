@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <script type="text/javascript" src="scripts.js"></script>
+   <link rel="stylesheet" href="myfamily.css">
+   <title>My Family</title>
+</head>
+<font size="10"><b><p align="center">My Family</p></b></font>
+
+<body background="50.jpg">
+	<ul class="ba">
+
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="aboutme.html">About Me</a></li>
+                      <li><a href="education.html">Education</a></li>
+                      <li><a href="myfamily.html">My Family</a></li>
+                      <li><a href="gallery.html">Nnisa's Gallery</a></li>
+                      <li><a href="experience.html">Experiences</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+	</ul>
+</body>
+</html>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</head>
+<body>
+
+<center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="family.jpg" style="width:30%" border="5%">
+  <div class="text">My Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="siblings.jpg" style="width:30%" border="5%">
+  <div class="text">My Siblings</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="mi padre.jpg" style="width:30%" border="5%">
+  <div class="text">My Dad</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="mi madre.jpg" style="width:30%" border="5%">
+  <div class="text">My Mom</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="nisa.jpg" style="width:30%" border="5%">
+  <div class="text">Me</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="amri.jpg" style="width:30%" border="5%">
+  <div class="text">My Brother (Amri)</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="ashikin.jpg" style="width:30%" border="5%">
+  <div class="text">My Sister (Ashikin)</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="babybal.jpg" style="width:30%" border="5%">
+  <div class="text">My Brother (Iqbal)</div>
+</div>
+</center>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<marquee><b><p align="center">"Of the dinar you spend as a contribution in Allah's path, or 
+to set free a slave, or as a sadaqa given to a needy, or to support your family, the one yielding 
+the greatest reward is that which you spent on your family."</p></b></marquee>
+<br>
+<br>
+<br>
+<br>
+<br>
+<b><p align="center">Enjoy!!</p></b>
+<center>
+<video width="1000" height="500" autoplay>
+  <source src="vidfam.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</center>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<h2>I LOVE MY FAMILY</h2>
+<center>
+   <div><p>I have 4 siblings and I'm the eldest in my siblings. 
+My dad's name is Mustapakama Jehwae and he's Thais. My mom is Zurina binti
+ Ghazali and she's Malaysian. My first brother named Khairul Amri and he's 
+18 years old this year. My sister name is Khairun Ashikin and she's 14 years 
+old while my last brother, Khairul Iqbal is 10 years old.</p></div>
+<br>
+
+   <div><p>My dad's hobbies are gardening and fishing. He loves fishing
+very much and whenever he goes for fishing he'll bring
+back a lot of fish. My mom's hobbies are cooking and sewing. She 
+always sewed all of our "Baju Kurung" for raya. Her rendang ayam during 
+also is the best for me and I loved it so much. My brother's, Amri
+hobbies are watching movies. He loved to watch all of the movies
+online and he's also recommended me some best movies to be watch.
+Next, Ashikin, my sister hobbies is watching YouTube during her free
+time while my youngest brother, Iqbal, loves to cycling every days.</p></div>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<b><p align="center">Below is the timetable of my family members.</p></b>
+<br>
+<table align="center" width="500">
+   <tr>
+      <th>No.</th>
+      <th>Name</th>
+      <th>Relationship</th>
+   </tr>
+   <tr>
+      <th>1</th>
+      <th>Mustapakama Jehwae</th>
+      <th>Dad</th>
+   </tr>
+   <tr>
+      <th>2</th>
+      <th>Zurina binti Ghazali</th>
+      <th>Mom</th>
+   </tr>
+   <tr>
+      <th>3</th>
+      <th>Khairunnisa binti Mustapakama</th>
+      <th>Me</th>
+   </tr>
+   <tr>
+      <th>4</th>
+      <th>Khairul Amri bin Mustapakama</th>
+      <th>Brother</th>
+   </tr>
+   <tr>
+      <th>5</th>
+      <th>Khairun Ashikin binti Mustapakama</th>
+      <th>Sister</th>
+   </tr>
+   <tr>
+      <th>6</th>
+      <th>Khairul Iqbal bin Mustapakama</th>
+      <th>Brother</th>
+   </tr>
+
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>
+
+
+
+
+
